@@ -578,15 +578,15 @@ $(function() {
           if (ableSVG && SVGLabel) {
             accordionHTML += '<img src="' + description.styles + '" alt="' + description.label + '"  />';
           } else {
-            accordionHTML += '<p class="text-center">' + description.label + "</p>";
+            accordionHTML += '<p class="text-center" class="label">' + description.label + "</p>";
           }
           accordionHTML += "</div>" +
             '<h6><p class="text-left date">' + dateLabel + "</p></h6>" +
             "</a>" +
             "</div>" +
             '<div id="collapse' + i + '" class="accordion-body collapse">' +
-            '<div class="accordion-inner">' +
-            description.description + "<br />" + target_tag +
+            '<div class="accordion-inner"><h3>' +
+            description.description + "</h3>" + target_tag +
             '<div class="targetDays"></div></div>' +
             "</div>" +
             "</div>";

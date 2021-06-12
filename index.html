@@ -2,7 +2,14 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8">
-    <title>5374(ｺﾞﾐﾅｼ).jp</title> 
+    <meta property="og:title" content="5374.jp 奈良県三宅町版" />
+    <meta property="og:type" content="product" />
+    <meta property="og:url" content="https://miyake.5374.jp/" />
+    <meta property="og:description" content="Code for Kanazawaの作った5374.jpは貴方の地域で、いつ、どのゴミが回収されるのか、簡単に知る事ができます。" />
+    <meta property="og:image" content="https://miyake.5374.jp/img/ogp.png" />
+    <meta name="Keywords" content="金沢市,5374,ごみ,ゴミ収集日" />
+    <meta name="description" content="Code for Kanazawaの作った5374.jpは貴方の地域で、いつ、どのゴミが回収されるのか、簡単に知る事ができます。" />
+    <title>5374(ｺﾞﾐﾅｼ).jp 奈良県三宅町版</title>
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0" />
     <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-precomposed.png" />
@@ -17,14 +24,48 @@
   <div class="accordion" id="accordion3">
     <div class="accordion-group-top">
       <div class="accordion-heading">
+        <a class="accordion-toggle-top" data-toggle="collapse" data-parent="#accordion3" href="#collapse3_1">三宅町のゴミの出し方</a>
+      </div>
+      <div id="collapse3_1" class="accordion-body collapse">
+        <div class="accordion-inner">
+          <div id="help">
+            三宅町のゴミの出し方に関する決まりは、三宅町のホームページに掲載されています。
+            <ul>
+              <li>
+                <a href="http://www.town.miyake.nara.jp/2/229/001277.html">ごみの出し方</a>
+              </li>
+              <li>
+                <a href="http://www.town.miyake.nara.jp/41/236/000868.html">指定ごみ袋等取扱店</a>
+              </li>
+              <li>
+                <a href="http://www.town.miyake.nara.jp/2/230/1434/001284.html">ごみの分別一覧表</a>
+              </li>
+              <li>
+                <a href="http://www.town.miyake.nara.jp/41/236/001608.html">粗大ごみの収集について</a>
+              </li>
+              <li>
+                <a href="http://www.town.miyake.nara.jp/2/230/1434/001414.html">臨時ごみ・引越し等の一時多量ごみ</a>
+              </li>
+              <li>
+                <a href="http://www.town.miyake.nara.jp/2/230/1434/001415.html">町で収集できないもの</a>
+              </li>
+              <li>
+                <a href="http://www.town.miyake.nara.jp/2/230/1434/001416.html">家電４品目及び家庭系パソコンの廃棄</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-heading">
         <a class="accordion-toggle-top" data-toggle="collapse" data-parent="#accordion3" href="#collapse3_0">5374.jpについて</a>
       </div>
       <div id="collapse3_0" class="accordion-body collapse">
         <div class="accordion-inner">
           <div id="help">
-ゴミの問題は、どの地域でも深刻になりつつあります。
-Code for Kanazawaでは、先ずは正しいゴミの捨て方に注目しました。
-目的と使い方は、とてもシンプルです。
+          <p>5374は「ごみ無し」と読み、石川県金沢市の有志の活動<a href="http://codeforkanazawa.org/">Code for Kanazawa</a>で開発されたアプリです。</p>
+          <p>一定の条件に基づいて利用する限りは、どの自治体でも利用可能な形で公開されています。
+          各自治体ではプログラムの作成は不要、データを作成するだけで自分たちが住む地域のゴミ収集日をパソコンやスマートフォンで手軽に知ることができます。</p>
+          <p>三宅町版については、石見在住の<a href="http://kwaka1208.net/aboutme">若林</a>が立ち上げましたが、今後は町内の有志を募ってデータのメンテナンスを行っていきたいと思います。</p>
             <h2>目的</h2>
 「いつ、どのゴミが収集されているのか？」
 例えばお引っ越しをされた場合や、新しく金沢市に住むことになった時、このアプリを使えば、すぐに分かるようにデザインされています。
@@ -37,7 +78,7 @@ Code for Kanazawaでは、先ずは正しいゴミの捨て方に注目しまし
             <p>お住まいの地域を選択することで、ゴミ収集日が自動的に更新されます。</p>
             <div id="caption">
               <h4>提供されるゴミ情報について</h4>
-              <p>金沢市が公開しているデータからCfKが独自に解析し、アプリに実装しました。</p>
+              <p>金沢市が公開している<a target="_blank" href="http://www4.city.kanazawa.lg.jp/11010/opendata/other/kankyou.html">オープンデータ</a>を利用・変換を行い、アプリに実装しました。</p>
               <h4>ライセンスについて</h4>
               <p>本アプリの著作権はCode for Kanazawaに帰属します。</p>
             </div>
